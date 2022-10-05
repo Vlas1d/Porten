@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html">
+<head>
+<meta charset = "UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" 
+rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" 
+crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" 
+crossorigin="anonymous"></script>
+<script defer src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+<link rel = "stylesheet" type="text/css" href = "styles/my_styles.css">
+<link rel = "stylesheet" type="text/css" href = "styles/goods_styles.css">
+<link rel = "stylesheet" type="text/css" href = "styles/div_styles.css">
+
+</head>
+<body style="background-color: #000000; color: #FFFFFF;">
+	<header id = "header" class="fixed-top">
+		<div class="container-fluid" style="background-color: #000000;">
+				<div class="row g-0">
+					<div class="col-lg-9">
+						<a href="#" style="color:#969696" class="logo_position">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+							<path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+						</svg>
+						<small class="small-text1" style="text-align: 12px;">8 (812) 123-45-67    |   Працюємо 7 днів на тиждень    |    9:00 — 18:00  </small>
+						</a>
+					</div>
+					<div class="col-lg-3">
+						<a href="#" style="color:#969696">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="23" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+								<path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"/>
+								<path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+							</svg>
+							<small class="small-text1" style="text-align: 12px;">Вхід/Реєстрація</small>
+						</a>
+					</div>
+				</div>
+		</div>
+		<nav class="navbar navbar-expand-lg navbar-dark" style = "background: #0F0F0F;">
+			<a class = "navbar-brand logo_font logo_position" href = "#">PORTEN</a>
+			<button class="navbar-toggler" style = "margin-right: 2%;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+		
+			<div class="collapse navbar-collapse menu_position" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto" style = "font-size: 14px;">
+					<li class="nav-item active">
+						<a class="nav-link active" style="background-color: #1F1F1F;" href="#">СПОДОБАЛОСЬ</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">ОСОБИСТИЙ КАБІНЕТ</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">НАЛАШТУВАННЯ</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+							<path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+						</svg></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+						<path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+					</svg></a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	
+	<div class="container-fluid">
+		<div id="div1">
+			<div class = "container">
+				<div class = "container" id = "div-logo">
+					<div class = "logo_font1">PORTEN<hr style="width: 179px;"><span><h3>ІВАНО-ФРАНКІВСЬК</h3></span></div>
+				</div>
+				<div class="container text-adapt1">
+					В магазинах Торговельній мережі Porten ви можете купити годинник у Бахмуті, Вінниці, Дніпрі, Житомирі, Запоріжжі, Івано-Франківську, Києві, Краматорську, Луцьку, Львові, Одесі, Покровську, Полтаві, Рівному, Слов'янську, Сумах, Тернополі, Харкові, Херсоні, Хмельницькому, Черкасах, Чернівцях, Чернігові , а також багатьох інших містах України
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row g-0">
+			<div class="col-xxl-7" style="padding-top: 93px; padding-bottom: 93px;">
+				<h2>сезон 2021/22</h2><hr style="width: 120px;">
+					<div class="container">
+						<div class="row">
+							<div class="col-xl-4 col-md-6 col-sm-12">
+								<a href="#"><div class="goods-card">
+									<div class="goods-image">
+										<img src="images/goods5.png" class="img-fluid goods-img" alt="">
+									</div>
+									<div class="goods-content">
+										<small>Louis XVI ATHOS</small><br>
+										<small>13 600 грн.</small>
+									</div>
+								</div></a>
+							</div>
+							<div class="col-xl-4 col-md-6 col-sm-12">
+								<a href="#"><div class="goods-card">
+									<div class="goods-image">
+										<img src="images/goods1.png" class="img-fluid goods-img" alt="">
+									</div>
+									<div class="goods-content">
+										<small>Carl von Zeyten</small><br>
+										<small>16 500 грн.</small>
+									</div>
+								</div></a>
+							</div>
+							<div class="col-xl-4 col-md-6 col-sm-12">
+								<a href="#"><div class="goods-card">
+									<div class="goods-image">
+										<img src="images/goods2.png" class="img-fluid goods-img" alt="">
+									</div>
+									<div class="goods-content">
+										<small>JORD AR5905</small><br>
+										<small>65 000 грн.</small>
+									</div>
+								</div></a>
+							</div>
+						</div>
+					</div>
+			</div>
+			<div class="col-xxl-5" id="div3" style="padding-top: 484px; padding-bottom: 112px;">
+				<h2 style="font-family: 'Playfair Display Medium';">нова колекція</h2><hr style="width: 120px;">
+				<h3 style="margin-top: 2%;"><a href="#" class="button-opacity">каталог</a></h3>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container-fluid">
+		<div class="row g-0">
+			<div class="col-lg-6" id="div4">
+			</div>
+			<div class="col-lg-6">
+				<div class="container div5" style="padding: 15% 5% 15% 5%;">
+					<h2 style="font-family: 'Playfair Display Medium';">колекція 2018</h2><hr style="width: 120px;">
+					<div class="small-text1" style="text-align: center; width: 100%;">
+						Годинники як інструмент визначення часу давно і надійно прижилися в людській реальності. Романтики та прагматики, художники та бізнесмени, чоловіки та жінки, дорослі та діти - всі хочуть знати котра година в потрібний момент. Скільки хвилин пройшло, скільки залишилося, а ще - які саме моделі і якого бренду виблискують на руці у друга, коханої або конкурента. З давніх часів, коли людина здогадався втикнути в землю паличку та іншою поличкою взявся відміряти рівні проміжки часу на піску, не вщухають суперечки - яким повинний бути годинник? Наручним, або настільним, або настінним, або, нарешті, підлоговим? Чому ж кожен діамантик на безеле або шестерінка в механізмі незмінно змушують гордовито випнутися нижню губу володаря аксесуара, а щоки - роздутися?
+					</div>
+					<h3 style="margin-top: 7%;"><a href="#" class="button-opacity">переглянути колекцію</a></h3>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container-fluid">
+		<div id="div6">
+			<h2>нові надходження</h2><hr style="width: 120px;">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-3 col-sm-6 col-12">
+						<a href="#"><div class="goods-card">
+							<div class="goods-image">
+								<img src="images/goods1.png" class="img-fluid goods-img" alt="">
+							</div>
+							<div class="goods-content">
+								<small>Carl von Zeyten</small><br>
+								<small>16500 грн.</small>
+							</div>
+						</div></a>
+					</div>
+					<div class="col-xl-3 col-sm-6 col-12">
+						<a href="#"><div class="goods-card">
+							<div class="goods-image">
+								<img src="images/goods2.png" class="img-fluid goods-img" alt="">
+							</div>
+							<div class="goods-content">
+								<small>JORD AR5905</small><br>
+								<small>65 000 грн.</small>
+							</div>
+						</div></a>
+					</div>
+					<div class="col-xl-3 col-sm-6 col-12">
+						<a href="#"><div class="goods-card">
+							<div class="goods-image">
+								<img src="images/goods3.png" class="img-fluid goods-img" alt="">
+							</div>
+							<div class="goods-content">
+								<small>Emporio Armani Sportivo</small><br>
+								<small>165 000 грн.</small>
+							</div>
+						</div></a>
+					</div>
+					<div class="col-xl-3 col-sm-6 col-12">
+						<a href="#"><div class="goods-card">
+							<div class="goods-image">
+								<img src="images/goods4.png" class="img-fluid goods-img" alt="">
+							</div>
+							<div class="goods-content">
+								<small>Rolex Oyster Perpetual</small><br>
+								<small>280 000 грн.</small>
+							</div>
+						</div></a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xl-3 col-sm-6 col-12">
+						<a href="#"><div class="goods-card">
+							<div class="goods-image">
+								<img src="images/goods5.png" class="img-fluid goods-img" alt="">
+							</div>
+							<div class="goods-content">
+								<small>Louis XVI ATHOS</small><br>
+								<small>65 000 грн.</small>
+							</div>
+						</div></a>
+					</div>
+					<div class="col-xl-3 col-sm-6 col-12">
+						<a href="#"><div class="goods-card">
+							<div class="goods-image">
+								<img src="images/goods6.png" class="img-fluid goods-img" alt="">
+							</div>
+							<div class="goods-content">
+								<small>U-Boat Italo Fontana</small><br>
+								<small>18 700 грн.</small>
+							</div>
+						</div></a>
+					</div>
+					<div class="col-xl-3 col-sm-6 col-12">
+						<a href="#"><div class="goods-card">
+							<div class="goods-image">
+								<img src="images/goods7.png" class="img-fluid goods-img" alt="">
+							</div>
+							<div class="goods-content">
+								<small>Gucci Men's G</small><br>
+								<small>38 500 грн.</small>
+							</div>
+						</div></a>
+					</div>
+					<div class="col-xl-3 col-sm-6 col-12">
+						<a href="#"><div class="goods-card">
+							<div class="goods-image">
+								<div class="goods-image" style="background: url(images/goods8.png); background-size: cover;
+								background-position: center;">
+									<h3 style="margin-top: 0;
+									position: relative; top: 50%; transform: translate(0, -50%);"><a class="button-opacity">показати всі</a></h3>
+								</div>
+							</div>
+						</div></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container-fluid">
+		<div id="div7">
+			<h2>статті та корисна інформація</h2><hr style="width: 120px;">
+			<div class="row g-0">
+				<div class="col-lg-6" style="padding-top: 15px;">
+					<img src="images/article1.png" class="img-fluid" alt="ROGER DUBUIS. ЧАСТИНА 1">
+				</div>
+				<div class="col-lg-6">
+					<div style="padding: 5% 15% 5% 15%;">
+						<h4>ROGER DUBUIS. ЧАСТИНА 1</h4>
+						<div class="small-text1" style="text-align:justify; width: 100%;">
+							Цей чемпіон «гіперхорології» став синонімом надмірності й завдяки своїй радикальній скелетонізованій архітектурі неодноразово демонструє пристрасть до годинного вуайєризму. У цій серії з чотирьох статей описується нещодавня подорож на мануфактуру, де можна було спостерігати за виготовленням та оздобленням деталей, а також за збіркою та регулюванням годинників компанії.
+						</div>
+						<h3 style="margin-top: 7%; text-align: left;"><a href="#" class="button-opacity">Читати</a></h3>
+						<h4 style="text-align: right;">#Ексклюзив #пробренд</h4>
+					</div>
+				</div>
+			</div>
+			<div class="row g-0">
+				<div class="col-lg-6" style="padding-top: 15px;">
+					<img src="images/article2.png" class="img-fluid" alt="ROGER DUBUIS. ЧАСТИНА 1">
+				</div>
+				<div class="col-lg-6">
+					<div style="padding: 5% 15% 5% 15%;">
+						<h4>ІСТОРІЯ ЛЮКСОВИХ ГОДИННИКІВ. ЧАСТИНА 1</h4>
+						<div class="small-text1" style="text-align:justify; width: 100%;">
+							Історія люксових годинників зародилася дуже давно, вона веде відлік із часів перших годинників у світі. Тоді годинник був розкішшю, яку могла собі дозволити лише найвища еліта суспільства. Навіть не всім, хто має титул і великі гроші, могли виготовити цей розкішний аксесуар. Власне, з того часу мало що змінилося.						</div>
+						<h3 style="margin-top: 7%; text-align: left;"><a href="#" class="button-opacity">Читати</a></h3>
+						<h4 style="text-align: right;">#Ексклюзив #історія</h4>
+					</div>
+				</div>
+			</div>
+			<div class="row g-0">
+				<div class="col-lg-6" style="padding-top: 15px;">
+					<img src="images/article3.png" class="img-fluid" alt="ROGER DUBUIS. ЧАСТИНА 1">
+				</div>
+				<div class="col-lg-6">
+					<div style="padding: 5% 15% 5% 15%;">
+						<h4>ВЕЛИКИЙ ТА СМІЛИВИЙ TISSOT PRS 516 CHRONOGRAPH</h4>
+						<div class="small-text1" style="text-align:justify; width: 100%;">
+							На початку цього року компанія Tissot оновила модель PRS 516 Automatic Chronograph, але не пішла вінтажним шляхом. На противагу колекції Heritage із переконливими рімейками вінтажних моделей, PRS 516 – це сучасний хронограф із зухвалим настроєм, безліччю деталей автоспорту й за чудовою ціною.						<h3 style="margin-top: 7%; text-align: left;"><a href="#" class="button-opacity">Читати</a></h3>
+						<h4 style="text-align: right;">#хронограф  #tissot  #оглядгодинників</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container-fluid">
+		<div id="div8">
+			<div class="container">
+				<h2>наші партнери</h2><hr style="width: 120px;">
+				<div class="row">
+					<div class="col-lg-3 col-md-6 col-sm-12">
+						<a href="#"><img class="img-fluid" src="images/partner1.png" alt="COCOFINE JEWERLY"></a>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-12">
+						<a href="#"><img class="img-fluid" src="images/partner2.png" alt="ROLEX"></a>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-12">
+						<a href="#"><img class="img-fluid" src="images/partner3.png" alt="BREGUET"></a>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-12">
+						<a href="#"><img class="img-fluid" src="images/partner4.png" alt="HAVEN"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container-fluid">
+		<div class="row justify-content-center g-0" id="div9">
+			<div class="col-lg-3 col-md-10">
+				<h2 style="font-family: 'Playfair Display Medium'; font-size: 34px; text-align: left;">Про компанію</h2><br>
+				<div class="small-text1" style="text-align:left; width: auto;">
+					Компанія PORTEN – лідер на українському ринку годинників. На цей час ми об'єднуємо більше сорока магазинів у різних куточках України та інтернет-магазин, який став першим в нашому сегменті ринку. Торгова мережа PORTEN – офіційний дистриб'ютор більше 50 найвідоміших годинникових марок, починаючи від японської CASIO, закінчуючи швейцарськими LONGINES, ZENITH, TAG HEUER. Однак компанія не обмежується лише годинниками – в інтернет-магазині та бутіках мережі ви знайдете прекрасні ювелірні вироби від таких іменитих брендів, як SWAROVSKI и CHRISTINA.
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-10">
+				<h2 style="font-family: 'Playfair Display Medium'; font-size: 34px; text-align: left;">Категорії</h2><br>
+				<div class="container-fluid">
+					<div class="row g-0">
+						<div class="col-4 mini-block">годинники</div>
+						<div class="col-3 mini-block">запонки</div>
+						<div class="col-3 mini-block">ремені</div>
+					</div>
+					<div class="row justify-content-start g-0">
+						<div class="col-5 mini-block">ювелірні вироби</div>
+						<div class="col-5 mini-block">на замовлення</div>
+					</div>
+					<div class="row justify-content-start g-0">
+						<div class="col-3 mini-block">браслети</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-10">
+				<h2 style="font-family: 'Playfair Display Medium'; font-size: 34px; text-align: left;">Розсилка</h2><br>
+				<div class="small-text1" style="text-align:left; width: auto;">
+					Компанія пропонує тільки оригінальну продукцію від найвідоміших світових брендів за найкращою ціною. Ми дбаємо про комфорт наших покупців і постійно розширюємо можливості сервісного обслуговування.				
+				</div><br>
+				<form class="form-inline">
+					<input type="email" class="input-opacity" id="inputEmail" placeholder="Ваша пошта">
+					<button type="submit" class="mini-block btn" style="border-radius: 0px;">ПІДПИСАТИСЯ</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div class="container-fluid" style="background-color: #000000;">
+				<div class="row g-0">
+					<div class="col-lg-9">
+						<a href="#" style="color:#969696" class="logo_position">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-c-circle" viewBox="0 0 16 16">
+								<path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z"/>
+							</svg>
+						<small class="small-text1" style="text-align: 12px;">2022 PORTEN, Інтернет-магазин годинників</small>
+						</a>
+					</div>
+					<div class="col-lg-3" style="padding: 0px;">
+						<a href="#" style="color:#969696;">
+							<small class="small-text1" style="text-align: 12px;">Угода користувача</small>
+						</a>
+					</div>
+				</div>
+		</div>
+	</footer>
+</body>
+</html>

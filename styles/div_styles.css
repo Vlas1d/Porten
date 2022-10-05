@@ -1,0 +1,92 @@
+#div1 {
+    background: linear-gradient(0deg, rgba(15, 15, 15, 0.2), rgba(15, 15, 15, 0.2)), 
+    url(../images/1.png);
+    background-size: cover;
+    background-position: center;
+    padding-top: 23vh;
+    padding-bottom: 17vh;
+}
+#div2 {
+    background: #000000;
+}
+#div3 {
+    background: linear-gradient(0deg, rgba(15, 15, 15, 0.2), rgba(15, 15, 15, 0.2)), 
+    url(../images/2.png), #000000;
+    background-size: cover;
+    background-position: center;
+    
+}
+#div4 {
+    background: linear-gradient(0deg, rgba(15, 15, 15, 0.2), rgba(15, 15, 15, 0.2)), 
+    url(../images/3.png), #000000;
+    background-size: cover;
+    background-position: center;
+}
+#div5 {
+    background: #000000;
+}
+#div6 {
+    background: #000000;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+}
+#div7 {
+    background: #0F0F0F;
+    /*height: calc(100vw * 1582 / 1920);*/
+    padding-top: 7vh;
+    padding-bottom: 0vh;
+}
+#div8 {
+    background: #0F0F0F;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+}
+#div9 {
+    background: linear-gradient(0deg, rgba(15, 15, 15, 0.45), rgba(15, 15, 15, 0.45)), 
+    url(../images/4.png), #C4C4C4;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 67px;
+    padding-top: 80px;
+}
+
+#div-logo {
+    width: 320px;
+    height: 320px;
+    border: 4px solid #FFFFFF;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+.mini-block {
+    font-size: 14px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 3px;
+    margin-right: 3px;
+    background-color: #0F0F0F;
+}
+.input-opacity {
+    border-radius: 0px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 3px;
+    margin-right: 3px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+@media (min-width: 992px) {
+    
+}
+@media (max-width: 991.98px) {
+    .text-adapt1 {
+        width: auto;
+    }
+    #div1 {
+        padding-top: 17vh;
+        padding-bottom: 10vh;
+    }
+}
