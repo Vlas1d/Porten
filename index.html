@@ -14,10 +14,15 @@ crossorigin="anonymous"></script>
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+<script defer src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
 <link rel = "stylesheet" type="text/css" href = "styles/my_styles.css">
 <link rel = "stylesheet" type="text/css" href = "styles/goods_styles.css">
 <link rel = "stylesheet" type="text/css" href = "styles/div_styles.css">
+<link rel = "stylesheet" type="text/css" href = "styles/swiper_styles.css">
+
+<script defer src="scripts/script.js"></script>
 
 </head>
 <body style="background-color: #000000; color: #FFFFFF;">
@@ -74,7 +79,7 @@ crossorigin="anonymous"></script>
 			</div>
 		</nav>
 	</header>
-	
+	<section>
 	<div class="container-fluid">
 		<div id="div1">
 			<div class = "container">
@@ -82,7 +87,7 @@ crossorigin="anonymous"></script>
 					<div class = "logo_font1">PORTEN<hr style="width: 179px;"><span><h3>ІВАНО-ФРАНКІВСЬК</h3></span></div>
 				</div>
 				<div class="container text-adapt1">
-					В магазинах Торговельній мережі Porten ви можете купити годинник у Бахмуті, Вінниці, Дніпрі, Житомирі, Запоріжжі, Івано-Франківську, Києві, Краматорську, Луцьку, Львові, Одесі, Покровську, Полтаві, Рівному, Слов'янську, Сумах, Тернополі, Харкові, Херсоні, Хмельницькому, Черкасах, Чернівцях, Чернігові , а також багатьох інших містах України
+					В магазинах Торгівельної мережі Porten ви можете купити годинник у Бахмуті, Вінниці, Дніпрі, Житомирі, Запоріжжі, Івано-Франківську, Києві, Краматорську, Луцьку, Львові, Одесі, Покровську, Полтаві, Рівному, Слов'янську, Сумах, Тернополі, Харкові, Херсоні, Хмельницькому, Черкасах, Чернівцях, Чернігові , а також багатьох інших містах України
 				</div>
 			</div>
 		</div>
@@ -90,47 +95,51 @@ crossorigin="anonymous"></script>
 
 	<div class="container-fluid">
 		<div class="row g-0">
-			<div class="col-xxl-7" style="padding-top: 93px; padding-bottom: 93px;">
+			<div class="col-lg-6" style="padding-top: 93px; padding-bottom: 93px;">
 				<h2>сезон 2021/22</h2><hr style="width: 120px;">
 					<div class="container">
-						<div class="row">
-							<div class="col-xl-4 col-md-6 col-sm-12">
-								<a href="#"><div class="goods-card">
-									<div class="goods-image">
-										<img src="images/goods5.png" class="img-fluid goods-img" alt="">
-									</div>
-									<div class="goods-content">
-										<small>Louis XVI ATHOS</small><br>
-										<small>13 600 грн.</small>
-									</div>
-								</div></a>
+						<div class="swiper div-scroll">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<a href="#"><div class="goods-card">
+										<div class="goods-image">
+											<img src="images/goods5.png" class="img-fluid goods-img" alt="">
+										</div>
+										<div class="goods-content">
+											<small>Louis XVI ATHOS</small><br>
+											<small>13 600 грн.</small>
+										</div>
+									</div></a>
+								</div>
+								<div class="swiper-slide">
+									<a href="#"><div class="goods-card">
+										<div class="goods-image">
+											<img src="images/goods1.png" class="img-fluid goods-img" alt="">
+										</div>
+										<div class="goods-content">
+											<small>Carl von Zeyten</small><br>
+											<small>16 500 грн.</small>
+										</div>
+									</div></a>
+								</div>
+								<div class="swiper-slide">
+									<a href="#"><div class="goods-card">
+										<div class="goods-image">
+											<img src="images/goods2.png" class="img-fluid goods-img" alt="">
+										</div>
+										<div class="goods-content">
+											<small>JORD AR5905</small><br>
+											<small>65 000 грн.</small>
+										</div>
+									</div></a>
+								</div>
 							</div>
-							<div class="col-xl-4 col-md-6 col-sm-12">
-								<a href="#"><div class="goods-card">
-									<div class="goods-image">
-										<img src="images/goods1.png" class="img-fluid goods-img" alt="">
-									</div>
-									<div class="goods-content">
-										<small>Carl von Zeyten</small><br>
-										<small>16 500 грн.</small>
-									</div>
-								</div></a>
-							</div>
-							<div class="col-xl-4 col-md-6 col-sm-12">
-								<a href="#"><div class="goods-card">
-									<div class="goods-image">
-										<img src="images/goods2.png" class="img-fluid goods-img" alt="">
-									</div>
-									<div class="goods-content">
-										<small>JORD AR5905</small><br>
-										<small>65 000 грн.</small>
-									</div>
-								</div></a>
-							</div>
+							<div class="swiper-button-prev"></div>
+        					<div class="swiper-button-next"></div>
 						</div>
 					</div>
 			</div>
-			<div class="col-xxl-5" id="div3" style="padding-top: 484px; padding-bottom: 112px;">
+			<div class="col-lg-6" id="div3" style="padding-top: 484px; padding-bottom: 112px;">
 				<h2 style="font-family: 'Playfair Display Medium';">нова колекція</h2><hr style="width: 120px;">
 				<h3 style="margin-top: 2%;"><a href="#" class="button-opacity">каталог</a></h3>
 			</div>
@@ -158,98 +167,101 @@ crossorigin="anonymous"></script>
 	<div class="container-fluid">
 		<div id="div6">
 			<h2>нові надходження</h2><hr style="width: 120px;">
-			<div class="container">
-				<div class="row">
-					<div class="col-xl-3 col-sm-6 col-12">
-						<a href="#"><div class="goods-card">
-							<div class="goods-image">
-								<img src="images/goods1.png" class="img-fluid goods-img" alt="">
-							</div>
-							<div class="goods-content">
-								<small>Carl von Zeyten</small><br>
-								<small>16500 грн.</small>
-							</div>
-						</div></a>
-					</div>
-					<div class="col-xl-3 col-sm-6 col-12">
-						<a href="#"><div class="goods-card">
-							<div class="goods-image">
-								<img src="images/goods2.png" class="img-fluid goods-img" alt="">
-							</div>
-							<div class="goods-content">
-								<small>JORD AR5905</small><br>
-								<small>65 000 грн.</small>
-							</div>
-						</div></a>
-					</div>
-					<div class="col-xl-3 col-sm-6 col-12">
-						<a href="#"><div class="goods-card">
-							<div class="goods-image">
-								<img src="images/goods3.png" class="img-fluid goods-img" alt="">
-							</div>
-							<div class="goods-content">
-								<small>Emporio Armani Sportivo</small><br>
-								<small>165 000 грн.</small>
-							</div>
-						</div></a>
-					</div>
-					<div class="col-xl-3 col-sm-6 col-12">
-						<a href="#"><div class="goods-card">
-							<div class="goods-image">
-								<img src="images/goods4.png" class="img-fluid goods-img" alt="">
-							</div>
-							<div class="goods-content">
-								<small>Rolex Oyster Perpetual</small><br>
-								<small>280 000 грн.</small>
-							</div>
-						</div></a>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-xl-3 col-sm-6 col-12">
-						<a href="#"><div class="goods-card">
-							<div class="goods-image">
-								<img src="images/goods5.png" class="img-fluid goods-img" alt="">
-							</div>
-							<div class="goods-content">
-								<small>Louis XVI ATHOS</small><br>
-								<small>65 000 грн.</small>
-							</div>
-						</div></a>
-					</div>
-					<div class="col-xl-3 col-sm-6 col-12">
-						<a href="#"><div class="goods-card">
-							<div class="goods-image">
-								<img src="images/goods6.png" class="img-fluid goods-img" alt="">
-							</div>
-							<div class="goods-content">
-								<small>U-Boat Italo Fontana</small><br>
-								<small>18 700 грн.</small>
-							</div>
-						</div></a>
-					</div>
-					<div class="col-xl-3 col-sm-6 col-12">
-						<a href="#"><div class="goods-card">
-							<div class="goods-image">
-								<img src="images/goods7.png" class="img-fluid goods-img" alt="">
-							</div>
-							<div class="goods-content">
-								<small>Gucci Men's G</small><br>
-								<small>38 500 грн.</small>
-							</div>
-						</div></a>
-					</div>
-					<div class="col-xl-3 col-sm-6 col-12">
-						<a href="#"><div class="goods-card">
-							<div class="goods-image">
-								<div class="goods-image" style="background: url(images/goods8.png); background-size: cover;
-								background-position: center;">
-									<h3 style="margin-top: 0;
-									position: relative; top: 50%; transform: translate(0, -50%);"><a class="button-opacity">показати всі</a></h3>
+			<div class="container-fluid">
+				<div class="swiper div-scroll1">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<a href="#"><div class="goods-card">
+								<div class="goods-image">
+									<img src="images/goods1.png" class="img-fluid goods-img" alt="">
 								</div>
-							</div>
-						</div></a>
+								<div class="goods-content">
+									<small>Carl von Zeyten</small><br>
+									<small>16500 грн.</small>
+								</div>
+							</div></a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#"><div class="goods-card">
+								<div class="goods-image">
+									<img src="images/goods2.png" class="img-fluid goods-img" alt="">
+								</div>
+								<div class="goods-content">
+									<small>JORD AR5905</small><br>
+									<small>65 000 грн.</small>
+								</div>
+							</div></a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#"><div class="goods-card">
+								<div class="goods-image">
+									<img src="images/goods3.png" class="img-fluid goods-img" alt="">
+								</div>
+								<div class="goods-content">
+									<small>Emporio Armani Sportivo</small><br>
+									<small>165 000 грн.</small>
+								</div>
+							</div></a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#"><div class="goods-card">
+								<div class="goods-image">
+									<img src="images/goods4.png" class="img-fluid goods-img" alt="">
+								</div>
+								<div class="goods-content">
+									<small>Rolex Oyster Perpetual</small><br>
+									<small>280 000 грн.</small>
+								</div>
+							</div></a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#"><div class="goods-card">
+								<div class="goods-image">
+									<img src="images/goods5.png" class="img-fluid goods-img" alt="">
+								</div>
+								<div class="goods-content">
+									<small>Louis XVI ATHOS</small><br>
+									<small>65 000 грн.</small>
+								</div>
+							</div></a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#"><div class="goods-card">
+								<div class="goods-image">
+									<img src="images/goods6.png" class="img-fluid goods-img" alt="">
+								</div>
+								<div class="goods-content">
+									<small>U-Boat Italo Fontana</small><br>
+									<small>18 700 грн.</small>
+								</div>
+							</div></a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#"><div class="goods-card">
+								<div class="goods-image">
+									<img src="images/goods7.png" class="img-fluid goods-img" alt="">
+								</div>
+								<div class="goods-content">
+									<small>Gucci Men's G</small><br>
+									<small>38 500 грн.</small>
+								</div>
+							</div></a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#"><div class="goods-card">
+								<div class="goods-image">
+									<div class="goods-image" style="background: url(images/goods8.png); background-size: cover;
+									background-position: center;">
+										<h3 style="margin-top: 0;
+										position: relative; top: 50%; transform: translate(0, -50%);"><a class="button-opacity">показати всі</a></h3>
+									</div>
+								</div>
+							</div></a>
+						</div>
 					</div>
+					<div class="swiper-pagination"></div>
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
 				</div>
 			</div>
 		</div>
@@ -259,48 +271,61 @@ crossorigin="anonymous"></script>
 	<div class="container-fluid">
 		<div id="div7">
 			<h2>статті та корисна інформація</h2><hr style="width: 120px;">
-			<div class="row g-0">
-				<div class="col-lg-6" style="padding-top: 15px;">
-					<img src="images/article1.png" class="img-fluid" alt="ROGER DUBUIS. ЧАСТИНА 1">
-				</div>
-				<div class="col-lg-6">
-					<div style="padding: 5% 15% 5% 15%;">
-						<h4>ROGER DUBUIS. ЧАСТИНА 1</h4>
-						<div class="small-text1" style="text-align:justify; width: 100%;">
-							Цей чемпіон «гіперхорології» став синонімом надмірності й завдяки своїй радикальній скелетонізованій архітектурі неодноразово демонструє пристрасть до годинного вуайєризму. У цій серії з чотирьох статей описується нещодавня подорож на мануфактуру, де можна було спостерігати за виготовленням та оздобленням деталей, а також за збіркою та регулюванням годинників компанії.
+			<div class="swiper div-scroll2">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="row g-0">
+							<div class="col-lg-6" style="padding-top: 15px;">
+								<img src="images/article1.png" class="img-fluid" alt="ROGER DUBUIS. ЧАСТИНА 1">
+							</div>
+							<div class="col-lg-6">
+								<div style="padding: 5% 15% 5% 15%;">
+									<h4>ROGER DUBUIS. ЧАСТИНА 1</h4>
+									<div class="small-text1" style="text-align:justify; width: 100%;">
+										Цей чемпіон «гіперхорології» став синонімом надмірності й завдяки своїй радикальній скелетонізованій архітектурі неодноразово демонструє пристрасть до годинного вуайєризму. У цій серії з чотирьох статей описується нещодавня подорож на мануфактуру, де можна було спостерігати за виготовленням та оздобленням деталей, а також за збіркою та регулюванням годинників компанії.
+									</div>
+									<h3 style="margin-top: 7%; text-align: left;"><a href="#" class="button-opacity">Читати</a></h3>
+									<h4 style="text-align: right;">#Ексклюзив #пробренд</h4>
+								</div>
+							</div>
 						</div>
-						<h3 style="margin-top: 7%; text-align: left;"><a href="#" class="button-opacity">Читати</a></h3>
-						<h4 style="text-align: right;">#Ексклюзив #пробренд</h4>
+					</div>
+					<div class="swiper-slide">
+						<div class="row g-0">
+							<div class="col-lg-6" style="padding-top: 15px;">
+								<img src="images/article2.png" class="img-fluid" alt="ROGER DUBUIS. ЧАСТИНА 1">
+							</div>
+							<div class="col-lg-6">
+								<div style="padding: 5% 15% 5% 15%;">
+									<h4>ІСТОРІЯ ЛЮКСОВИХ ГОДИННИКІВ. ЧАСТИНА 1</h4>
+									<div class="small-text1" style="text-align:justify; width: 100%;">
+										Історія люксових годинників зародилася дуже давно, вона веде відлік із часів перших годинників у світі. Тоді годинник був розкішшю, яку могла собі дозволити лише найвища еліта суспільства. Навіть не всім, хто має титул і великі гроші, могли виготовити цей розкішний аксесуар. Власне, з того часу мало що змінилося.						</div>
+									<h3 style="margin-top: 7%; text-align: left;"><a href="#" class="button-opacity">Читати</a></h3>
+									<h4 style="text-align: right;">#Ексклюзив #історія</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="row g-0">
+							<div class="col-lg-6" style="padding-top: 15px;">
+								<img src="images/article3.png" class="img-fluid" alt="ROGER DUBUIS. ЧАСТИНА 1">
+							</div>
+							<div class="col-lg-6">
+								<div style="padding: 5% 15% 5% 15%;">
+									<h4>ВЕЛИКИЙ ТА СМІЛИВИЙ TISSOT PRS 516 CHRONOGRAPH</h4>
+									<div class="small-text1" style="text-align:justify; width: 100%;">
+										На початку цього року компанія Tissot оновила модель PRS 516 Automatic Chronograph, але не пішла вінтажним шляхом. На противагу колекції Heritage із переконливими рімейками вінтажних моделей, PRS 516 – це сучасний хронограф із зухвалим настроєм, безліччю деталей автоспорту й за чудовою ціною.						<h3 style="margin-top: 7%; text-align: left;"><a href="#" class="button-opacity">Читати</a></h3>
+									<h4 style="text-align: right;">#хронограф  #tissot  #оглядгодинників</h4>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="row g-0">
-				<div class="col-lg-6" style="padding-top: 15px;">
-					<img src="images/article2.png" class="img-fluid" alt="ROGER DUBUIS. ЧАСТИНА 1">
-				</div>
-				<div class="col-lg-6">
-					<div style="padding: 5% 15% 5% 15%;">
-						<h4>ІСТОРІЯ ЛЮКСОВИХ ГОДИННИКІВ. ЧАСТИНА 1</h4>
-						<div class="small-text1" style="text-align:justify; width: 100%;">
-							Історія люксових годинників зародилася дуже давно, вона веде відлік із часів перших годинників у світі. Тоді годинник був розкішшю, яку могла собі дозволити лише найвища еліта суспільства. Навіть не всім, хто має титул і великі гроші, могли виготовити цей розкішний аксесуар. Власне, з того часу мало що змінилося.						</div>
-						<h3 style="margin-top: 7%; text-align: left;"><a href="#" class="button-opacity">Читати</a></h3>
-						<h4 style="text-align: right;">#Ексклюзив #історія</h4>
-					</div>
-				</div>
-			</div>
-			<div class="row g-0">
-				<div class="col-lg-6" style="padding-top: 15px;">
-					<img src="images/article3.png" class="img-fluid" alt="ROGER DUBUIS. ЧАСТИНА 1">
-				</div>
-				<div class="col-lg-6">
-					<div style="padding: 5% 15% 5% 15%;">
-						<h4>ВЕЛИКИЙ ТА СМІЛИВИЙ TISSOT PRS 516 CHRONOGRAPH</h4>
-						<div class="small-text1" style="text-align:justify; width: 100%;">
-							На початку цього року компанія Tissot оновила модель PRS 516 Automatic Chronograph, але не пішла вінтажним шляхом. На противагу колекції Heritage із переконливими рімейками вінтажних моделей, PRS 516 – це сучасний хронограф із зухвалим настроєм, безліччю деталей автоспорту й за чудовою ціною.						<h3 style="margin-top: 7%; text-align: left;"><a href="#" class="button-opacity">Читати</a></h3>
-						<h4 style="text-align: right;">#хронограф  #tissot  #оглядгодинників</h4>
-					</div>
-				</div>
-			</div>
+			<div class="swiper-pagination"></div>
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div>
 		</div>
 	</div>
 
@@ -385,5 +410,6 @@ crossorigin="anonymous"></script>
 				</div>
 		</div>
 	</footer>
+</section>
 </body>
 </html>

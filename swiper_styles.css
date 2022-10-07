@@ -1,0 +1,22 @@
+.div-scroll {
+    padding: auto;
+    margin: auto;
+}
+
+.div-scroll1 {
+    padding-top: 25px;
+    margin: auto;
+}
+
+.div-scroll2 {
+    padding-bottom: 30px;
+    margin: auto;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: #ffffff;
+}
+
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: rgb(247, 247, 247);
+}
