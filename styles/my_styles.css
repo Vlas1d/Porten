@@ -68,6 +68,7 @@ small {
     font-family: 'Playfair Display Medium';
     font-style: normal;
     font-size: 18px; 
+    padding-left: 5px;
 }
 h2 {
     font-family: 'Playfair Display Bold';

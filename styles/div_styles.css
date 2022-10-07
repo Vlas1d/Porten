@@ -8,12 +8,14 @@
 }
 #div2 {
     background: #000000;
+    z-index: 1;
 }
 #div3 {
     background: linear-gradient(0deg, rgba(15, 15, 15, 0.2), rgba(15, 15, 15, 0.2)), 
     url(../images/2.png), #000000;
     background-size: cover;
     background-position: center;
+    z-index: 2;
     
 }
 #div4 {
@@ -70,6 +72,7 @@
 }
 .input-opacity {
     border-radius: 0px;
+    border: 0px;
     padding: 10px 20px 10px 20px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -86,7 +89,7 @@
         width: auto;
     }
     #div1 {
-        padding-top: 17vh;
+        padding-top: 20vh;
         padding-bottom: 10vh;
     }
 }

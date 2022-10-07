@@ -1,6 +1,7 @@
 .goods-card {
     width: 260px;
     margin: auto;
+    background-color: black;
 }
 .goods-image {
     background: #191B1C;
